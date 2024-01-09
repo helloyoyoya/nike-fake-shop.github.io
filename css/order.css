@@ -1,0 +1,121 @@
+.box_order{
+    width: 60%;
+    /* background-color: aqua; */
+    height: 1000px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.order_img{
+    position: sticky;
+    top: 70px;
+    width: 53%;
+    height: fit-content;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+}
+.order_info{
+    width: 40%;
+    height: 100%;
+}
+.size_img{
+    width: 12%;
+    height: 100%;
+    margin-right: 20px;
+}
+.little_img{
+    width: 100%;
+    height: 70px;
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.little_img img{
+    width: 100%;
+    object-position: 0px -20px;
+}
+.big_img{
+    width: 85%;
+}
+.big_img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.order_info p:nth-child(1){
+    font-size: 25px;
+    font-weight: bolder;
+}
+.order_info p:nth-child(3){
+    margin-top: 20px;
+    font-size: 18px;
+}
+.order_color {
+    width: 100%;
+    /* background-color: rgb(210, 132, 30); */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.shoes_color{
+    width: 19%;
+    height: 80px;
+    /* background-color: blueviolet; */
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.351);
+    
+}
+.shoes_color:hover {
+    border: 1px solid black;
+}
+.shoes_color img{
+    width: 100%;
+    object-position: 0px -20px;
+}
+.order_info p:nth-child(5){
+    margin: 0px auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    width: 70%;
+}
+.order_info p:nth-child(5) a{
+    color: black;
+}
+button{
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin: 10px 0px;
+}
+.fav{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.fine_store{
+    color: black;
+    padding: 5px 0px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+.order_info ul{
+    margin: 20px;
+}
+.order_info li{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.order_info li a{
+    color: black;
+    text-decoration: none;
+    
+}
